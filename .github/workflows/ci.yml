@@ -33,7 +33,7 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: remark-lint-report
-          path: lint-report.txt
+          path: public/
           
       - uses: actions/download-artifact@v3
         with:
